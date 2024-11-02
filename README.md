@@ -20,11 +20,9 @@ The solution uses a two-pointer approach to efficiently merge the two strings in
     . We append a sentinel character 'z' to both a and b to simplify the end-of-string comparisons, ensuring we don't have to check if either pointer has reached the end of its respective string.
 
 ## Complexity
+. **Time Complexity**: 0(n+m) where n and m are the lengths of a and b.This is achieved by processing each character exactly once.
 
-    . Time Complexity: 0(n+m) where n and m are the lengths of a and b.
-    This is achieved by processing each character exactly once.
-
-    . Space Complexity: O(n+m) for storing the final merged string.
+. **Space Complexity**: O(n+m) for storing the final merged string.
 
 ## Usage
 
