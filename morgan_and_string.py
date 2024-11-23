@@ -1,7 +1,7 @@
 def morganAndString(a: str, b: str) -> str:
-    i, j = 0, 0  # Pointers to track positins in 'a' and 'b'
+    i, j = 0, 0  # Pointers to track positions in 'a' and 'b'
     len_a, len_b = len(a), len(b)
-    result = []  # Stores the lexicographically minimal string
+    result = []  # Stores the lexicographically minimal string (Alphabetic Order)
 
     # Append a sentinel character 'z' to both strings to handle end cases
     a += "z"
